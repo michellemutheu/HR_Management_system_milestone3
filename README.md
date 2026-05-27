@@ -1,4 +1,3 @@
-
 # 🗂️ HR Management System — Milestone 3
 
 A structured SQL-based Human Resource Management System designed to manage employees, departments, and projects. This milestone focuses on advanced querying, data aggregation, and reporting using SQL.
@@ -14,6 +13,7 @@ This project simulates a real-world HR database environment. It covers the creat
 ## 📁 SQL Files Explained
 
 ### 🏗️ Table Setup
+
 | File | Description |
 |------|-------------|
 | `employee_table.sql` | Creates the core employees table with fields like name, salary, department, and hire date |
@@ -22,6 +22,7 @@ This project simulates a real-world HR database environment. It covers the creat
 | `employee_projects_table.sql` | Junction table linking employees to their assigned projects |
 
 ### ➕ Data Insertion
+
 | File | Description |
 |------|-------------|
 | `inserted_employees.sql` | Populates the employee table with sample records |
@@ -29,6 +30,7 @@ This project simulates a real-world HR database environment. It covers the creat
 | `inserted_employee_projects.sql` | Assigns employees to projects |
 
 ### 🔍 Queries & Analysis
+
 | File | Description |
 |------|-------------|
 | `employee_and_projects.sql` | JOINs employees with their project assignments |
@@ -40,6 +42,7 @@ This project simulates a real-world HR database environment. It covers the creat
 | `projects_above_600000.sql` | Filters projects with budgets above 600,000 |
 
 ### 📊 Reports & Advanced SQL
+
 | File | Description |
 |------|-------------|
 | `Employee_Overview_Report.sql` | Comprehensive report combining employee and department data |
@@ -51,8 +54,30 @@ This project simulates a real-world HR database environment. It covers the creat
 
 ---
 
-## 👩‍💻 Author
-**Michelle Mutheu**  
-SQL | Database Design | HR Systems
+## 💡 Key Concepts Used
 
-EOF
+| Concept | Description |
+|---------|-------------|
+| `CREATE TABLE` | Designed relational tables with proper data types and constraints |
+| `JOIN` | Combined data across employees, departments and projects |
+| `GROUP BY & HAVING` | Grouped and filtered aggregated data |
+| `Subqueries` | Used nested queries for salary comparisons |
+| `CASE Statements` | Applied conditional logic to categorize and segment data |
+| `Aggregate Functions` | Used COUNT, SUM, AVG, MAX, MIN for reporting |
+
+---
+
+## 🛠️ Tools Used
+
+- PostgreSQL
+- pgAdmin 4
+- VS Code
+- Git & GitHub
+
+---
+
+## 👩‍💻 Author
+
+**Michelle Mutheu**
+SQL | Database Design | HR Systems
+GitHub: [github.com/michellemutheu](https://github.com/michellemutheu)
